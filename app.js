@@ -62,7 +62,6 @@ const loadCategotyVideos=(id)=>{
 }
 
 const loadVideoDetails = (videoID) => {
-  console.log(videoID);
   const url = `
    https://openapi.programming-hero.com/api/phero-tube/video/${videoID}
   `
